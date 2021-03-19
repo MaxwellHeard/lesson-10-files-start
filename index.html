@@ -61,7 +61,7 @@
 				h2.textContent = jsonObj.topFlavors[i].name;
 				image.setAttribute("src", "images/" + jsonObj.topFlavors[i].img);
 				p1.textContent = `dessert type ${topFlavors[i].type}`;
-				ps.textContent = `calories: ${topFlavors[i].calories}`;
+				p2.textContent = `calories: ${topFlavors[i].calories}`;
 				// STEP 10f: Build a loop for the ingredients array in the JSON
 				let ingredients = topFlavors[i].ingredients;
 				for (let j = 0; j < ingredients.length; j++){

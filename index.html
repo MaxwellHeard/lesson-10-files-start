@@ -61,7 +61,7 @@
 				let list = document.createElement("ul");
 				// STEP 10e: Set the textContent property for each of the above elements (except the UL), based on the JSON content
 				h2.textContent = jsonObj.topFlavors[i].name;
-				image.setAttribute("src", "images/" + jsonObj.topFlavors[i].image);
+				image.setAttribute("src", "images/" + jsonObj.topFlavors[i].img);
 				p1.textContent = `dessert type ${topFlavors[i].type}`;
 				ps.textContent = `calories: ${topFlavors[i].calories}`;
 				// STEP 10f: Build a loop for the ingredients array in the JSON
